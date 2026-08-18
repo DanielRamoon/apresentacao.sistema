@@ -293,11 +293,12 @@ function App() {
               <h3>INGRESSOS FÍSICOS</h3>
               <table>
                 <tbody>
-                  <tr><td>Pix</td><td>2,5%</td></tr>
-                  <tr><td>Débito</td><td>3,5%</td></tr>
-                  <tr><td>Crédito 1x</td><td>4,5%</td></tr>
-                  <tr><td>Crédito 2x</td><td>5,5%</td></tr>
-                  <tr><td>Crédito 3x</td><td>6,5%</td></tr>
+                  <tr><td>Pix</td><td>1,9%</td></tr>
+                  <tr><td>Débito</td><td>1,9%</td></tr>
+                  <tr><td>Crédito 1x</td><td>3,5%</td></tr>
+                  <tr><td>Crédito 2x</td><td>7,0%</td></tr>
+                  <tr><td>Crédito 3x</td><td>9,0%</td></tr>
+                  <tr><td>Impressão do ingresso</td><td>R$ 1,00</td></tr>
                 </tbody>
               </table>
               <a href={WHATSAPP_URL} target="_blank" rel="noreferrer" className="btn btn--primary btn--sm">Saiba mais</a>
