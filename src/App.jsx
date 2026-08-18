@@ -251,7 +251,7 @@ function App() {
 
             <div className="equipamentos-box">
               <h2>EQUIPAMENTOS</h2>
-              <p>Aluguel gratuito de equipamentos para eventos parceiros.</p>
+              <p>Disponibilizando equipamentos para eventos parceiros.</p>
               <div className="equipamentos__icons">
                 <div className="equip-item">
                   <span className="equip-item__icon"><IconTerminal /></span>
@@ -341,13 +341,13 @@ function App() {
             <div className="validacao-box">
               <div className="validacao-box__header">
                 <h2>VALIDAÇÃO</h2>
-                <p className="validacao-box__subtitle">SEM CUSTO DE VALIDAÇÃO</p>
+                <p className="validacao-box__subtitle">VALIDAÇÃO DE INGRESSOS</p>
               </div>
               <div className="validacao-box__body">
                 <ul className="validacao-list">
                   {[
-                    'Sem taxa de equipamento',
-                    'Check-in pelo celular',
+                    'Disponibilizando equipamentos para o evento',
+                    'Check-in pelo validador',
                     'Validação em tempo real',
                     'Relatório de presença',
                     'Múltiplos pontos de entrada',
@@ -405,7 +405,7 @@ function App() {
               <ul className="obs-list">
                 <li>
                   <span>💳</span>
-                  Repasse de valores conforme contrato, em até 3 dias úteis após o evento.
+                  Repasse de valores conforme contrato.
                 </li>
                 <li>
                   <span>📦</span>
