@@ -6,6 +6,7 @@ import './App.css'
 
 const SITE_URL = 'https://www.showingressos.com.br'
 const EMAIL = 'contato@showingressos.com.br'
+const WHATSAPP_URL = 'https://wa.me/5574999989569'
 
 function IconGlobe() {
   return (
@@ -299,7 +300,7 @@ function App() {
                   <tr><td>Crédito 3x</td><td>6,5%</td></tr>
                 </tbody>
               </table>
-              <button type="button" className="btn btn--primary btn--sm">Saiba mais</button>
+              <a href={WHATSAPP_URL} target="_blank" rel="noreferrer" className="btn btn--primary btn--sm">Saiba mais</a>
             </article>
 
             <article className="cond-card cond-card--highlight">
@@ -309,7 +310,7 @@ function App() {
                 <p className="cond-card__fee">10%</p>
                 <p className="cond-card__desc">Sobre o valor do ingresso vendido online</p>
               </div>
-              <button type="button" className="btn btn--primary btn--sm">Saiba mais</button>
+              <a href={WHATSAPP_URL} target="_blank" rel="noreferrer" className="btn btn--primary btn--sm">Saiba mais</a>
             </article>
 
             <article className="cond-card">
